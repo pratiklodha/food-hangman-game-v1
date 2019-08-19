@@ -78,7 +78,7 @@ class Hangman extends Component {
       <div className='Hangman'>
         <h1>Hangman - Guess a Food Word</h1>
         <img src={this.props.images[this.state.nWrong]} alt={altText} />
-        <p>Guessed Wrong: {this.state.nWrong}</p>
+        <p>Guess remaining: {this.props.maxWrong - this.state.nWrong}</p>
         <p className='Hangman-word'>
           {!gameOver ? this.guessedWord() : this.state.answer}
         </p>
