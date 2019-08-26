@@ -7,7 +7,7 @@ var ENGLISH_WORDS = [
   "chaat",
   "chicken",
   "dal",
-  "sou",
+  "soup",
   "papad",
   "pepper",
   "poha",
@@ -45,7 +45,7 @@ var ENGLISH_WORDS = [
   "falooda",
   "pulao",
   "kheer",
-  "khidichi",
+  "khichdi",
   "lassi",
   "rasgulla",
   "korma"
